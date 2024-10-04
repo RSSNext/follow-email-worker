@@ -1,0 +1,15 @@
+name = "follow-email-worker"
+
+[env.prod.vars]
+API_URL = "https://api.follow.is"
+INBOXES_AUTH_TOKEN = ""
+INBOXES_EMAIL = "@follow.re"
+SUCCESS_FORWARD_TO = ""
+FAILURE_FORWARD_TO = ""
+
+[env.dev.vars]
+API_URL = "https://api.dev.follow.is"
+INBOXES_AUTH_TOKE = ""
+INBOXES_EMAIL = "__devdev@follow.re"
+SUCCESS_FORWARD_TO = ""
+FAILURE_FORWARD_TO = ""
