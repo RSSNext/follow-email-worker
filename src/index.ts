@@ -26,7 +26,7 @@ export default {
             subject: email.subject,
             messageId: email.messageId,
             date: email.date ?? new Date().toISOString(),
-            html: email.html,
+            html: email.html || email.text,
           }
 
           await ofetch(`${env.API_URL}/inboxes/email`, {
