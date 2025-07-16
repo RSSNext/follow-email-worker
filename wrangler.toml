@@ -5,12 +5,15 @@ compatibility_date = "2025-07-16"
 API_URL = "https://api.folo.is"
 INBOXES_AUTH_TOKEN = ""
 INBOXES_EMAIL = "@follow.re"
-SUCCESS_FORWARD_TO = ""
-FAILURE_FORWARD_TO = ""
+SUCCESS_FORWARD_TO = "followadmin+success@rss3.io"
+FAILURE_FORWARD_TO = "followadmin+failure@rss3.io"
 
 [env.dev.vars]
 API_URL = "https://api.dev.follow.is"
-INBOXES_AUTH_TOKE = ""
+INBOXES_AUTH_TOKEN = ""
 INBOXES_EMAIL = "__devdev@follow.re"
-SUCCESS_FORWARD_TO = ""
-FAILURE_FORWARD_TO = ""
+SUCCESS_FORWARD_TO = "followadmin+success@rss3.io"
+FAILURE_FORWARD_TO = "followadmin+failure@rss3.io"
+
+[observability.logs]
+enabled = true
