@@ -1,11 +1,11 @@
 {
   "name": "follow-email-worker",
+  "type": "module",
   "version": "1.0.0",
   "packageManager": "pnpm@9.11.0",
   "description": "",
   "author": "",
   "license": "ISC",
-  "keywords": [],
   "main": "index.js",
   "scripts": {
     "dev": "wrangler dev src/index.ts",
@@ -14,15 +14,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "ofetch": "1.4.0",
-    "postal-mime": "2.3.2",
+    "ofetch": "1.4.1",
+    "postal-mime": "2.4.4",
     "zod": "3.23.8"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20240925.0",
-    "eslint": "9.11.1",
-    "eslint-config-hyoban": "3.1.8",
-    "typescript": "5.6.2",
-    "wrangler": "3.78.12"
+    "@cloudflare/workers-types": "4.20250715.0",
+    "eslint": "9.31.0",
+    "eslint-config-hyoban": "4.0.8",
+    "typescript": "5.8.3",
+    "wrangler": "4.24.3"
   }
 }

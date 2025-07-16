@@ -1,7 +1,8 @@
 name = "follow-email-worker"
+compatibility_date = "2025-07-16"
 
 [env.prod.vars]
-API_URL = "https://api.follow.is"
+API_URL = "https://api.folo.is"
 INBOXES_AUTH_TOKEN = ""
 INBOXES_EMAIL = "@follow.re"
 SUCCESS_FORWARD_TO = ""
